@@ -68,13 +68,6 @@ def sizeof_bytes_to_human(num):
         num /= 1024.0
     return "%3.1f%s" % (num, 'TB')
 
-def sizeof_human_to_bytes(human):
-    """returns the byte version of a human-readable file size"""
-
-
-    return 5
-
-
 def get_folder_sizes(base='/', pp=None):
     """returns the total size of the given folder and all subfolders"""
     global api_client
